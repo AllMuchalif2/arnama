@@ -1,0 +1,125 @@
+{
+  "identity": {
+    "name": "Al - Muchalif Arnama",
+    "title": "Fullstack Developer",
+    "tagline": "I build web experiences.",
+    "bio": "Information Systems Student at Institut Widya Pratama Pekalongan with a strong focus and proven proficiency in Full-stack Web Development.",
+    "avatar": "/src/assets/avatar.jpg",
+    "resumeUrl": "https://drive.google.com/file/d/1_he8H2MOc5pJ-jKNo5w_pl_LbB-Qzm01/view?usp=sharing"
+  },
+  "techStack": [
+    { "name": "Tailwind", "icon": "Wind", "color": "#38B2AC" },
+    { "name": "Vue.js", "icon": "Layers", "color": "#42b883" },
+    { "name": "Laravel", "icon": "Code", "color": "#FF2D20" },
+    { "name": "Flutter", "icon": "Layers", "color": "#02569B" },
+    { "name": "Java", "icon": "Coffee", "color": "#007396" },
+    { "name": "MySQL", "icon": "Database", "color": "#4479A1" },
+    { "name": "Figma", "icon": "Figma", "color": "#F24E1E" },
+    { "name": "Git", "icon": "GitBranch", "color": "#F05032" }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "MyMart",
+      "description": "A web-based e-commerce application designed specifically for grocery stores.",
+      "tags": ["Laravel", "Tailwind", "MySQL", "Groq-AI"],
+      "liveUrl": "https://my-mart.page.gd/",
+      "repoUrl": "https://github.com/AllMuchalif2/myMart",
+      "featured": true,
+      "year": "2025"
+    },
+    {
+      "id": 2,
+      "title": "ResikiAPP",
+      "description": "A web-based application providing cleaning services based in Pekalongan.",
+      "tags": ["Laravel", "Tailwind", "MySQL"],
+      "liveUrl": "https://resiki-app.rf.gd/",
+      "repoUrl": "https://github.com/nrfqii/ResikiApp",
+      "featured": true,
+      "year": "2025"
+    },
+    {
+      "id": 3,
+      "title": "Transaksiku-App",
+      "description": "A personal finance tracking application that helps users track expenses and income easily and efficiently.",
+      "tags": ["Flutter", "SQLite", "Groq-AI"],
+      "repoUrl": "https://github.com/AllMuchalif2/transaksiku-app",
+      "featured": false,
+      "year": "2025"
+    },
+    {
+      "id": 4,
+      "title": "GachaKelompok",
+      "description": "A web-based application specifically designed to help divide groups randomly.",
+      "tags": ["JavaScript", "Tailwind"],
+      "liveUrl": "https://allmuchalif2.github.io/gachakel/",
+      "repoUrl": "https://github.com/AllMuchalif2/gachakel",
+      "featured": false,
+      "year": "2025"
+    }
+  ],
+  "timeline": [
+    {
+      "id": 1,
+      "type": "experience",
+      "title": "Front-End Web & Back-End with AI, Cohort",
+      "organization": "Asah led by Dicoding",
+      "period": "August 2025 — February 2026",
+      "description": "Intensive 7-month cohort program.",
+      "icon": "Briefcase"
+    },
+    {
+      "id": 2,
+      "type": "experience",
+      "title": "Computer Lab Assistant",
+      "organization": "UPT Laboratorium Institut Widya Pratama",
+      "period": "September 2024 — August 2025",
+      "description": "Help lecturer at practical class, Computer Lab Maintenance, Teach intern student at UPT Laboratorium. Pekalongan, Central Java, Indonesia.",
+      "icon": "Briefcase"
+    },
+    {
+      "id": 3,
+      "type": "education",
+      "title": "Bachelor's degree, System Information",
+      "organization": "Institut Widya Pratama",
+      "period": "2023 — 2027",
+      "description": "Studying System Information.",
+      "icon": "GraduationCap"
+    },
+    {
+      "id": 4,
+      "type": "education",
+      "title": "Student, Computer and Network Engineering",
+      "organization": "SMK Negeri 2 Pekalongan",
+      "period": "July 2020 — June 2023",
+      "description": "Focus on Computer and Network Engineering.",
+      "icon": "BookOpen"
+    }
+  ],
+  "socials": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/AllMuchalif2",
+      "icon": "Github",
+      "username": "@AllMuchalif2"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/allmuchalif2",
+      "icon": "Linkedin",
+      "username": "in/allmuchalif2"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/allmuchalif2",
+      "icon": "Instagram",
+      "username": "@allmuchalif2"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:almuchalifal@gmail.com",
+      "icon": "Mail",
+      "username": "almuchalifal@gmail.com"
+    }
+  ]
+}
