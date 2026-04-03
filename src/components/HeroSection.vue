@@ -36,11 +36,11 @@
           <div class="absolute inset-0 translate-x-4 translate-y-4 bg-[#3b82f6] border-4 border-black rounded-none"></div>
           <div class="relative w-64 h-64 md:w-80 md:h-80 border-4 border-black bg-white overflow-hidden">
             <img
-              :src="data?.identity?.avatar"
+              :src="avatarImg"
               :alt="data?.identity?.name"
               class="w-full h-full object-cover"
             />
-            <div class="absolute bottom-0 left-0 right-0 bg-black text-white font-black uppercase text-xs tracking-widest py-2 px-3">
+          <div class="absolute bottom-0 left-0 right-0 bg-black text-white font-black uppercase text-xs tracking-widest py-2 px-3">
               {{ data?.identity?.tagline }}
             </div>
           </div>
@@ -58,6 +58,8 @@
 </template>
 
 <script setup>
+import avatarImg from '../assets/avatar.jpg'
+
 defineProps({
   data: Object
 })
