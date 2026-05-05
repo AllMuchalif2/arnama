@@ -56,6 +56,26 @@
       "repoUrl": "https://github.com/AllMuchalif2/gachakel",
       "featured": false,
       "year": "2025"
+    },
+    {
+      "id": 5,
+      "title": "DOMENICO",
+      "description": "A weather-app with NERV style and Indonesian Location.",
+      "tags": ["React", "CSS","Open Weather API"],
+      "liveUrl": "https://domenico-sys.netlify.app/",
+      "repoUrl": "https://github.com/AllMuchalif2/domenico",
+      "featured": false,
+      "year": "2026"
+    },
+    {
+      "id": 6,
+      "title": "My Bini Gacha Waifu",
+      "description": "A f2p Waifu Gacha Game using Jikan Api as source.",
+      "tags": ["React", "Tailwind","Supabase"],
+      "liveUrl": "https://mybinigw.vercel.app/",
+      "repoUrl": "https://github.com/AllMuchalif2/react-waifu-roll",
+      "featured": false,
+      "year": "2026"
     }
   ],
   "timeline": [
