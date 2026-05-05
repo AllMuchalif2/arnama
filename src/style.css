@@ -5,14 +5,75 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --bg-color: #f0f0f0;
+    --text-color: #000;
+    --white: #fff;
+    --dot-color: #cbd5e1;
+    --border-color: #000;
+    --primary-color: #3b82f6;
+    --primary-hover: #2563eb;
+    --primary-light: #60a5fa;
+  }
+
   html {
     scroll-behavior: smooth;
   }
+
   body {
     font-family: 'Space Grotesk', 'Arial Black', sans-serif;
-    background-color: #f0f0f0;
+    background-color: var(--bg-color);
+    background-image: radial-gradient(var(--dot-color) 1px, transparent 1px);
+    background-size: 20px 20px;
   }
-  ::-webkit-scrollbar { width: 10px; }
-  ::-webkit-scrollbar-track { background: #f0f0f0; border-left: 2px solid black; }
-  ::-webkit-scrollbar-thumb { background: #3b82f6; border: 2px solid black; }
+
+  h1,
+  h2,
+  h3,
+  .font-black-han {
+    font-family: 'Space Grotesk', 'Arial Black', Impact, sans-serif;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--bg-color);
+    border-left: 2px solid var(--border-color);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border: 2px solid var(--border-color);
+  }
+}
+
+@layer utilities {
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 20s linear infinite;
+    width: max-content;
+  }
+
+  .scroll-hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+    will-change: opacity, transform;
+  }
+
+  .scroll-show {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
